@@ -46,13 +46,12 @@ DESTINATIONS = {
 # vienen vacías en el repo original; las incluimos igual: si algún día
 # reciben datos, viajarán solos)
 TABLES = [
-    # Esta lista crece laboratorio a laboratorio.
-    # Lab 2: "payment_types"
-    # Lab 3: + "countries", "provinces", "cities", "addresses"
-    # Lab 4: + "products", "product_subcategories",
-    #          "product_categories", "product_departments", "units_of_measure"
-    # Lab 5: + "customers", "employees", "promotions"
-    # Lab 6: + "orders", "order_lines", "package_types"
+     "payment_types",
+    "countries","provinces", "cities", "addresses",
+    "products", "product_subcategories",
+              "product_categories", "product_departments", "units_of_measure",
+     "customers", "employees", "promotions",
+     "orders", "order_lines", "package_types"
 ]
 
 
