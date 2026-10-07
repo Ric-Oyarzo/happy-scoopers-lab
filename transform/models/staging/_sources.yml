@@ -1,0 +1,12 @@
+YAML 
+version: 2 
+
+sources: 
+   -name: raw
+    schema: raw 
+    tables:
+      - name: products
+      - name: products_deparments
+      - name: products_categories
+      - name: products_subcategories
+      - name: products_units_of_measure
