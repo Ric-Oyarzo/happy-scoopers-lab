@@ -3,7 +3,6 @@ with source as (
 )
 
 select
- product_id,
  product_name,
  product_code,
  product_description,
@@ -11,4 +10,3 @@ select
  unit_of_measure_id,
  unit_price
  case when discontinued then 'Si' else 'no' end as discontinued from source
- 
