@@ -1,5 +1,5 @@
 with source as (
-    select * from {{ source('raw', 'pruduct_subcategories') }}
+    select * from {{ source('raw', 'product_subcategories') }}
 )
 select 
   product_subcategory_id,
