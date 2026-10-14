@@ -6,7 +6,7 @@ sources:
      schema: raw 
      tables:
       - name: products
-      - name: products_deparments
-      - name: products_categories
-      - name: products_subcategories
-      - name: products_units_of_measure
+      - name: product_deparments
+      - name: product_categories
+      - name: product_subcategories
+      - name: units_of_measure
