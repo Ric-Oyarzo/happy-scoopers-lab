@@ -4,6 +4,6 @@ with source as  (
 
 select
  department_id, 
- name as department_name,
- descrption as department_description 
+ name as department_description
+ description as department_description
  from source
