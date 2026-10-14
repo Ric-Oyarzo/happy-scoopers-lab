@@ -5,5 +5,5 @@ select
     category_id,
     category_name,
     category_description,
-    department_id,
+    department_id
 from source 
